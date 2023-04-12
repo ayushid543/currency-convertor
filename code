@@ -1,0 +1,22 @@
+#currency convertor
+
+yen = int(input('Enter the number of yen : '))
+print(yen)
+
+won = int(input('Enter number of won: '))
+print(won)
+
+yuan = int(input('Enter number of yuan: '))
+print(yuan)
+
+rupees = int(input('Enter number of rupees: '))
+print(rupees)
+
+yen_to_dollars = yen * 0.0075
+won_to_dollars = won * 0.00075
+yuan_to_dollars = yuan * 0.15
+rupees_to_dollars = rupees * 0.012
+
+dollars = yen_to_dollars + won_to_dollars + yuan_to_dollars + rupees_to_dollars
+print('Total dollars: ')
+print(dollars)
